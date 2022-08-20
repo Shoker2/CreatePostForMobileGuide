@@ -34,11 +34,11 @@ try:
 		cc = open(config_path, "w+", encoding ="utf8")
 		cc.write(
 			'''[general]
-	url = exampleURL
+url = exampleURL
 
-	[citys]
-	exampleCity = NameCity
-	exampleCity2 = NameCity2'''
+[citys]
+exampleCity = NameCity
+exampleCity2 = NameCity2'''
 		)
 		cc.close()
 
